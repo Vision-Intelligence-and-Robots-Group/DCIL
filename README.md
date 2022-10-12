@@ -10,23 +10,24 @@ In this paper, we focus on a new and challenging decentralized machine learning 
 
 ![](imgs/fcil_framework.png)
 
-
 ## Code
 
 ### Install dependencies
 
-torch >= 1.0 torchvision opencv numpy scipy, all the dependencies can be easily installed by pip or conda
+torch >= 1.0 torchvision opencv numpy scipy, all the dependencies can be easily installed by pip or conda.
 
-This code was tested with python 3.7  
+This code was tested with python 3.7.
+
+We refer to LUCIR (https://github.com/hshustc/CVPR19_Incremental_Learning) to setup the experimental environment.
 
 ###  Train and Test
 
-1、 Dowload Dataset ImageNet
+1、 Dowload Dataset ImageNet and Selected 100 Classes Randomlly 
+
 2、 Train and Test Model 
 ```
 sh script/sub.sh
 ```
-
 ### Results
 ![](imgs/sub.png)
 
