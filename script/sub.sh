@@ -1,4 +1,3 @@
-#Cosine Normalization (Mimic Scores) + Less-forget Constraint (Adaptive Loss Weight) + Margin Ranking Loss
 GPU=2
 GRAPH_LAMDA=15
 NBCL=10
