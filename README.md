@@ -26,7 +26,9 @@ We refer to LUCIR (https://github.com/hshustc/CVPR19_Incremental_Learning) to se
 
 2、 Train and Test Model 
 ```
-sh script/sub.sh
+sh script/sub.sh  # our DCID method
+```
+sh script/baseline.sh   # baseline method
 ```
 ### Results
 ![](imgs/sub.png)
