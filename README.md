@@ -1,7 +1,6 @@
 # Deep Class Incremental Learning from Decentralized Data （IEEE TNNLS 2022）
 
-[Arxiv](https://arxiv.org/abs/2203.05984) | [CVF] 
-(https://arxiv.org/abs/2203.05984) 
+[Arxiv](https://arxiv.org/abs/2203.05984) | [Official Version] 
 
 ###  This is the official implement of TNNLS 2022 paper "Deep Class Incremental Learning from Decentralized Data". 
 
@@ -37,11 +36,14 @@ sh script/baseline.sh   # baseline method
 If you use this code for your research, please cite our paper:
 
 ```
-@inproceedings{DCID2022,
-  title={Deep Class Incremental Learning from Decentralized Data},
-  author={},
-  booktitle={},
+@ARTICLE{zhang2022dcid,
+  author={Zhang, Xiaohan and Dong, Songlin and Chen, Jinjie and Tian, Qi and Gong, Yihong and Hong, Xiaopeng},
+  journal={IEEE Transactions on Neural Networks and Learning Systems}, 
+  title={Deep Class Incremental Learning from Decentralized Data}, 
+  year={2022},
+  volume={},
+  number={},
   pages={},
-  year={2022}
-}
+  doi={10.1109/TNNLS.2022.3214573}}
+
 ```
